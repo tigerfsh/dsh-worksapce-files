@@ -1,0 +1,9 @@
+{
+  "name": "dsh-fuzzy-matcher",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Self-contained fuzzy path matcher (WebAssembly + pure-JS fallback) for the DSH Web GUI plugin",
+  "main": "fuzzy.js",
+  "files": ["fuzzy.js", "fuzzy.wasm", "fuzzy.wasm.b64.js"]
+}

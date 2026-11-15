@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "工作区资源管理器",
+    "description": "用懒加载目录树、文件图标、快速打开、ripgrep 内容搜索、拖拽路径和复制/插入文件操作替换原生工作区文件页。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}

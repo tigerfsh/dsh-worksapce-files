@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Workspace Explorer",
+    "description": "Replaces the native Workspace Files page with a lazy tree, file icons, quick open, ripgrep content search, drag-to-chat paths, and copy/insert file actions.",
+    "detail": "docs/DETAIL.md"
+  }
+}

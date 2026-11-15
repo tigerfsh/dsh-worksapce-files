@@ -1,0 +1,23 @@
+[package]
+name = "fuzzy"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Tiny fuzzy path matcher for the DSH Web GUI plugin (wasm32 cdylib)"
+
+# Only the wasm artifact matters. `build.sh` is the supported build path on this
+# machine because the wasm32 target component is not installed system-wide; use
+#   rustup target add wasm32-unknown-unknown   (or build.sh)
+#   cargo build --release --target wasm32-unknown-unknown
+[lib]
+crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[dependencies]
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = "symbols"

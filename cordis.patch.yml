@@ -1,0 +1,4 @@
+# Workspace Explorer bundle layer.
+- insert:
+    - id: workspace-explorer
+      name: 'dsh-worksapce-files'
