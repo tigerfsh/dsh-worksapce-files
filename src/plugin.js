@@ -8,7 +8,7 @@ const {
 const h = React.createElement
 const Fragment = React.Fragment
 
-const ID = 'dsh-worksapce-files'
+const ID = '@fushouhai/dsh-workspace-files'
 const NS = 'workspaceExplorer'
 const ROW_HEIGHT = 24
 const MAX_FILE_RESULTS = 120

@@ -1,5 +1,7 @@
 # Workspace Explorer
 
+npm package: `@fushouhai/dsh-workspace-files`
+
 A fast replacement for the native **Workspace Files** page in the DeepSeek
 Harness Web GUI. The plugin takes over the `files` tab kind through the
 right-Sidebar tab registry, so the shell keeps every other feature (document

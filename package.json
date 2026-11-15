@@ -1,5 +1,5 @@
 {
-  "name": "dsh-worksapce-files",
+  "name": "@fushouhai/dsh-workspace-files",
   "version": "0.1.0",
   "type": "module",
   "description": "A fast workspace explorer for DeepSeek Harness: lazy tree, file icons, quick open, ripgrep content search, drag-to-chat paths, and copy/insert file actions.",

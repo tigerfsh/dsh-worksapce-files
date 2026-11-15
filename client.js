@@ -1,6 +1,6 @@
 /* Built by build-client.mjs. Source: src/plugin.js + rust/fuzzy/fuzzy.js. */
 window.__ModuleLoader__.load({
-  id: "dsh-worksapce-files",
+  id: "@fushouhai/dsh-workspace-files",
   factory(require) {
 /* Workspace Explorer client body. Bundled into client.js by build-client.mjs. */
 'use strict'
@@ -12,7 +12,7 @@ const {
 const h = React.createElement
 const Fragment = React.Fragment
 
-const ID = 'dsh-worksapce-files'
+const ID = '@fushouhai/dsh-workspace-files'
 const NS = 'workspaceExplorer'
 const ROW_HEIGHT = 24
 const MAX_FILE_RESULTS = 120
